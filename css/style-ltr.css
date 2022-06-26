@@ -1,0 +1,59 @@
+body{
+    direction: ltr;
+    text-align: left;
+}
+.hoverable-dropdown .dropdown-content::before{left: 10px; right: 0;}
+.swiper-button-prev svg {
+    transform: rotate(-136deg);
+    margin-left: 8px;
+    margin-right: auto;
+}
+.swiper-button-next svg {
+    transform: rotate(42deg);
+    margin-right: 8px;
+    margin-left: auto;
+}
+.swiper-button-next{
+    margin-right: 100px;
+    margin-left: auto;
+}
+.swiper-button-prev{
+    margin-left: 100px;
+    margin-right:auto ;
+}
+.about-us article p{margin-left: 60px !important; margin-right: auto;}
+.quote svg{transform: rotate(180deg);}
+.about-us article a{margin-left: 60px; margin-right: auto;}
+.fa-arrow-left-long {
+    margin: -1px 8px;
+    transform: rotate(180deg);
+}
+.new-image img{
+    margin-right: 16px;
+    margin-left: auto;
+}
+.photos-numbers{
+    right: 11%;
+    left: auto;
+}
+.play-icon{margin-right: 20px;margin-left: auto; transform: rotate(180deg);}
+.info .phone svg{transform: scaleX(-1);}
+
+.cover-content{left: 11%; right: auto;}
+#q-form-content form .form-group .fa-angle-down{right: 15px; left: auto;}
+.form-group .fa-eye, .form-group .fa-eye-slash{right: 5%; left: auto;}
+.new-acc-forms .nav-tabs li:not(:first-of-type){border-left: 1px solid var(--main3); border-right: none;}
+.acc-form-group .fa-angle-down, .acc-form-group .fa-arrow-up-from-bracket{right: 4% !important; left: auto !important;}
+.profile-image .image-container .disc .fa-asterisk {
+    right: -3%;
+    left: auto;
+}
+.profile-image .disc {
+    margin-left: -33px;
+    margin-right: auto;
+}
+
+.change-image .fa-pen{transform: scaleX(-1);}
+.identity-card .free::after{left: 15%; right: auto;}
+.t-intput-group svg{right: 7%; left: auto;}
+.master-card{right: 16%; left: auto;}
