@@ -69,7 +69,7 @@ if ( uploadedImage ){
                         '<p class="uploadedName m-0">' + name + '</p>' +                    
                         '<input class="file-uploded" type="text" value="' + name + '" disabled hidden class="file-uploded m-0">' +
                         '</div>' +
-                        '</div>';
+                        '</div>'; 
 
                 }
             }
