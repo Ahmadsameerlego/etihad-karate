@@ -89,8 +89,3 @@ if ( uploadedImage ){
         $(ele).remove();
     }
 }
-
-
-
-
-
