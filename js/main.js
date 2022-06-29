@@ -36,12 +36,13 @@ $(window).on('scroll',function(){
 
 
 // upload file
-
-let ext = name[name.length - 3] + name[name.length - 2] + name[name.length - 1];
+let uploadedImage = document.querySelector(".uploadFile");
+if ( uploadedImage ){
+    let ext = name[name.length - 3] + name[name.length - 2] + name[name.length - 1];
         const imgExt = ['jpg', 'JPG', 'PEG', 'peg', 'png', 'PNG', 'SVG', 'svg'];
         let src = null;
 
-    document.querySelector(".uploadFile").onchange = function (event) {
+        uploadedImage.onchange = function (event) {
         if (event.target.files && event.target.files[0]) {
             selectedFilesCont.innerHTML = '';
             for (let i = 0; i < event.target.files.length; i++) {
@@ -87,11 +88,9 @@ let ext = name[name.length - 3] + name[name.length - 2] + name[name.length - 1];
         chat_files.files = files.files;
         $(ele).remove();
     }
+}
 
 
 
 
-document.querySelector('.np').addEventListener('change', (e)=>{
-    document.querySelector('.nav-t-result-tab').classList.toggle('active')
-    console.log('fff')
-})
+
